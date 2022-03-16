@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2 cartao de credito</title>
+    <script src="https://kit.fontawesome.com/81967479e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./vendor/glider/glider.css">
+</head>
+
+<body>
+    <nav class="wrapper flex">
+        <div class="cabeca">
+            <img src="./img/logo.png" alt="marca sto credit">
+            <h1>Bem vindo a sua conta virtual!</h1>
+            <p>Clique no botão para selecionar a opção desejada.</p>
+<a href="../index.html">sair</a>
+
+        </div>
+        <section id="dor">
+
+            <div class="selecao">
+                <ul>
+                    <li class="link"><button onclick="mostrarImagem('./img/saldo.png')">Saldo</button></li>
+                    <li class="link"><button onclick="mostrarImagem('./img/movimentações.jpg')">Movimentações</button>
+                    </li>
+                    <li class="link"><button onclick="mostrarImagem('./img/pagamentos.jpg')">Pagamentos</button></li>
+                    <li class="link"><button onclick="mostrarImagem('./img/transferencia.jpg')">Transferencias</button>
+                    </li>
+                    <li class="link"><button onclick="mostrarImagem('./img/extrato.png')">Extratos</button></li>
+                    <li class="link"><button onclick="mostrarImagem('./img/emprestimos.jpg')">Emprestimos</button></li>
+                    <li class="link"><button onclick="mostrarImagem('./img/parceiras.jpg')">Lojas parceiras</button>
+                    </li>
+                </ul>
+                <article class="dorme">
+                    <img id="imagemlogim" src="" alt="">
+                    <div class="bloco">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+        <footer class="final">
+            <div>
+                <h2> Sto Credit o banco do futuro</h2>
+            </div>
+        </footer>
+    </nav>
+    <script src="./script.js"></script>
+</body>
+
+</html>
